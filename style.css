@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    background-color: royalblue;
+    background-image: url("https://i1.faceprep.in/ProGrad/guess-number-bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+#position {
+    padding: 6px;
+    text-align: center;
+}
+
+.button {
+    padding: 7px;
+    background-color: lightcoral;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: lightcyan;
+
+}
+
+#message {
+    font-size: 1.3em;
+    background-color: orange;
+    padding: 5px 15px;
+    border-radius: 2px;
+    display: none;
+    text-align: center;
+}
